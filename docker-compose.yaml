@@ -1,0 +1,19 @@
+version: '3'
+services:
+    sonar:
+        build: ./sonar
+    api:
+        build: ./api
+        volumes:
+            - './api:/usr/local/src/skiff/api'
+        environment:
+            # This ensures that errors are printed as they occur, which
+            # makes debugging easier.
+            - 'PYTHONUNBUFFERED=1'
+            - 'LOG_LEVEL=DEBUG'
+    proxy:
+        build: ./proxy
+        ports:
+            - '8080:80'
+        depends_on:
+            - api
