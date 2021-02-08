@@ -44,7 +44,8 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
 
 * INSTRUCTIONS
 The corpus is in BoolQ_3L format so it can be used with the same code.
-
+  - Full corpus: **DATA/INSTRUCTIONS/INSTRUCTIONS-full.json**
+  - Has Answer: **DATA/ACE-YNQA/INSTRUCTIONS-has-answer.json**
 
 
 ## 2. Code for Training and Testing on BoolQ_{3L}
