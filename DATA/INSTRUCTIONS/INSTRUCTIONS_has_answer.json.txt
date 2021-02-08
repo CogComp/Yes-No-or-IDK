@@ -1,0 +1,47 @@
+{"question": "Should a column be inserted", "answer": true, "passage": "Insert a new column between the first and second column"}
+{"question": "Should a row be inserted", "answer": true, "passage": "Insert a new row between the third and fourth rows"}
+{"question": "Should a column be inserted", "answer": true, "passage": "Insert a column to the left of the leftmost column"}
+{"question": "Should a math operation be performed", "answer": true, "passage": "Sum columns A and B and put the result in C"}
+{"question": "Should a math operation be performed", "answer": true, "passage": "Multiply columns C and E"}
+{"question": "Should a math operation be performed", "answer": true, "passage": "Multiply the two columns"}
+{"question": "Should a chart be made", "answer": true, "passage": "Make a bar chart using columns C and D"}
+{"question": "Do we need to address the x and y axis", "answer": false, "passage": "Make a bar chart using columns C and D"}
+{"question": "Do we need to adress two specific columns", "answer": false, "passage": "Make a bar chart using column C"}
+{"question": "Do we need to adress two specific columns", "answer": false, "passage": "Make a bar chart"}
+{"question": "Should a chart be made", "answer": true, "passage": "Create a bar chart using columns C and D"}
+{"question": "Should a chart be made", "answer": true, "passage": "Construct a bar chart using columns C and D"}
+{"question": "Should font size be changed", "answer": true, "passage": "Change the font size in cell C4 to 14"}
+{"question": "Should font color be changed", "answer": true, "passage": "Change the font color to red"}
+{"question": "Should font size be changed", "answer": true, "passage": "Change the font size to 14"}
+{"question": "Should font color be changed", "answer": false, "passage": "Change the font size to 15"}
+{"question": "Should font size be changed", "answer": false, "passage": "Change the font color to red"}
+{"question": "Do we need to address a specific cell or column", "answer": false, "passage": "Change the font color to blue"}
+{"question": "Do we need to address a specific cell or column", "answer": true, "passage": "Change the font size in cell C4 to 14"}
+{"question": "Do we need to address a specific cell", "answer": false, "passage": "Change the font color to blue"}
+{"question": "Should font color be changed", "answer": false, "passage": "Change font to Times New Roman"}
+{"question": "Should font type be changed", "answer": true, "passage": "Change font to Times New Roman"}
+{"question": "Do we need to address two specific columns", "answer": false, "passage": "Multiply the two columns"}
+{"question": "Do we need to address two specific columns", "answer": true, "passage": "Multiply the first two columns"}
+{"question": "Should we change cell or column format", "answer": true, "passage": "Change the format of Column C to currency"}
+{"question": "Do we need to address two specific columns", "answer": true, "passage": "Change the format of Column C to currency"}
+{"question": "Should we change font", "answer": true, "passage": "Make cell c3 bold"}
+{"question": "Do we need to change font or text", "answer": true, "passage": "Change the font color to red"}
+{"question": "Should font or text be changed", "answer": true, "passage": "Make column c italics"}
+{"question": "Do we need to change font or text", "answer": true, "passage": "Change the format of Column C to currency"}
+{"question": "Should we change font size", "answer": false, "passage": "Change the font size of column C"}
+{"question": "Do we need to perform a math operation", "answer": false, "passage": "Insert a new column between the first and second column"}
+{"question": "Does a chart need to be made", "answer": false, "passage": "Insert a new column between the first and second column"}
+{"question": "Does text or font need to be changed", "answer": false, "passage": "Insert a new column between the first and second column"}
+{"question": "Does a chart need to be made", "answer": true, "passage": "Make a bar chart column c as the x axis and d as the y axis"}
+{"question": "Do two specific columns need to be addressed", "answer": true, "passage": "Make a bar chart column c as the x axis and d as the y axis"}
+{"question": "Do specific axes need to be addressed", "answer": true, "passage": "Make a bar chart column c as the x axis and d as the y axis"}
+{"question": "Do specific axes need to be addressed", "answer": true, "passage": "Make a bar chart column c as the horizontal axis and d as the vertical axis"}
+{"question": "Should a math operation be performed", "answer": true, "passage": "Change the font color in cell B4 to blue"}
+{"question": "Should a chart be made", "answer": false, "passage": "Change the font color in cell B4 to blue"}
+{"question": "Should a column be inserted or deleted", "answer": false, "passage": "Change the font color in cell B4 to blue"}
+{"question": "Should font or text be changed", "answer": true, "passage": "Change the font color in cell B4 to blue"}
+{"question": "Should font or text be edited", "answer": false, "passage": "Sum columns E and F and put the result in D"}
+{"question": "Should columns be inserted or deleted", "answer": false, "passage": "Sum columns E and F and put the result in D"}
+{"question": "Should a chart be made", "answer": false, "passage": "Sum columns E and F and put the result in D"}
+{"question": "Should a math operation be performed", "answer": true, "passage": "Sum columns E and F and put the result in D"}
+{"question": "Does the chart have a title", "answer": true, "passage": "Make a line chart with columns 3 and 6 titled Minute Physics"}
