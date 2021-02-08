@@ -60,7 +60,7 @@ virtual environment:
                     
                     virtualenv venv           #create environment
                     
-                    **source venv/bin/activate  #activate environment
+                    source venv/bin/activate  #activate environment
                   
 install requirements:  
                      
