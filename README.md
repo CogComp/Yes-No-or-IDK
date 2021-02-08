@@ -48,7 +48,11 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
   - Has Answer: **DATA/ACE-YNQA/INSTRUCTIONS-has-answer.json**
 
 
-## 2. Code for Training and Testing on BoolQ_{3L}
+## 2. Code for Training and Testing on BoolQ_3L
+
+Environment: TensorFlow using Google Cloud and TPU (v2.8)
+
+Requirements: **BoolQ_3L_experiments/requirements.txt**
 
 ## 3. Pretrained Models
 
