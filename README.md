@@ -89,6 +89,8 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
                    A vocab file (vocab.txt) to map WordPiece to word id.
        
                    A config file (bert_config.json) which specifies the hyperparameters of the model.
+ 
+ * The script **BooolQ_3L_Code/run_bert_boolq_full.py** is based on [the original BoolQ code](https://github.com/google-research/language/tree/master/language/boolq), condidering 3 labels instead of two.
 
 ## 3. Pretrained Models
 
