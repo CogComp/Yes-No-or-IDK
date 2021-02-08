@@ -40,7 +40,7 @@ The corpus is in SQuAD 2.0 format so it can be used with the same code.
 The corpus is in BoolQ_3L format so it can be used with the same code.
   - Full corpus: **DATA/ACE-YNQA/ACE-YNQA-full.json**
   - Has Answer: **DATA/ACE-YNQA/ACE-YNQA-has-answer.json**
-  - Compet. IDK: **DATA/ACE-YNQA/ACE-YNQA-IDK.json**
+  - IDK: **DATA/ACE-YNQA/ACE-YNQA-IDK.json**
 
 * INSTRUCTIONS
 The corpus is in BoolQ_3L format so it can be used with the same code.
