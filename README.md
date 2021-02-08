@@ -74,6 +74,8 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
 * Installing requirements:  
                      
                       pip install tensorflow==1.15
+                      
+                      pip install bert-tensorflow
 
                       pip install --upgrade google-api-python-client
                      
