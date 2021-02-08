@@ -12,16 +12,16 @@ Data and code for the paper:
 ### Existing Datasets Used in the paper:
 
 * SQuAD 2.0
-  - Train Set: https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json
-  - Dev Set: https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json
+  - [Train Set](https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json)
+  - [Dev Set](https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json)
 
 * BoolQ
-  - Train Set: https://storage.cloud.google.com/boolq/train.jsonl
-  - Dev Set: https://storage.cloud.google.com/boolq/dev.jsonl
+  - [Train Set](https://storage.cloud.google.com/boolq/train.jsonl)
+  - [Dev Set](https://storage.cloud.google.com/boolq/dev.jsonl)
 
 * MNLI 
-  - Train Set: GLUE_DATA/MNLI/train.tsv
-  - Dev Set: GLUE_DATA/MNLI/dev_matched.tsv
+  - [Train Set](GLUE_DATA/MNLI/train.tsv)
+  - [Dev Set](GLUE_DATA/MNLI/dev_matched.tsv)
 
 Script for downloading GLUE_DATA: https://gist.github.com/W4ngatang/60c2bdb54d156a41194446737ce03e2e
 
@@ -91,8 +91,6 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
                    A vocab file (vocab.txt) to map WordPiece to word id.
        
                    A config file (bert_config.json) which specifies the hyperparameters of the model.
-                   
- * Downloading the utils folder from the BoolQ code: https://github.com/google-research/language/tree/master/language/boolq/utils
  
  * The script **BooolQ_3L_Code/run_bert_boolq_full.py** is based on [the original BoolQ code](https://github.com/google-research/language/tree/master/language/boolq), condidering 3 labels instead of two.
  
