@@ -1,6 +1,12 @@
 # Do We Know What We Don't Know?
 Studying Unanswerable Questions across Different Formats and Domains
 
+Data and code for the paper:
+                     
+                     Do We Know What We Don't Know? Studying Unanswerable Questions across Different Formats and Domains
+                     Elior Sulem, Jamaal Hay and Dan Roth
+  
+
 ## 1. Datasets
 
 ### Existing Datasets Used in the paper:
