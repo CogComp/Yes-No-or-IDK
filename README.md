@@ -118,6 +118,35 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
                 
 ## 3. Pretrained Models
 
-## 4. Commands for Training and Testing the Models 
+* Extractive QA:
+
+  - SQuAD 2.0 baseline
+  
+  - Additional pretraining on MNLI
+
+  - Additional pretraining on c(MNLI)
+  
+  - Additional pretraining on BoolQ_3L
+  
+* Yes/No QA with IDK:
+  
+  - BoolQ_3L_baseline
+  
+  - MNLI + BoolQ_3L
+  
+  - c(MNLI) + BoolQ_3L
+  
+* RTE:
+ - MNLI baseline
+
+## 4. Commands for Training and Testing on SQuAD 2.0 and MNLI:
+
+Code: https://github.com/google-research/bert
+
+* MNLI: https://github.com/google-research/bert#sentence-and-sentence-pair-classification-tasks
+
+* SQuAD 2.0: https://github.com/google-research/bert#squad-20
+
+
 
 
