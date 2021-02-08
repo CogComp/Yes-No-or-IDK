@@ -137,7 +137,7 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
   - c(MNLI) + BoolQ_3L
   
 * RTE:
- - MNLI baseline
+   - MNLI baseline
 
 ## 4. Commands for Training and Testing on SQuAD 2.0 and MNLI:
 
