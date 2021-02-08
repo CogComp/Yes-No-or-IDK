@@ -52,7 +52,16 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
 
 Environment: TensorFlow using Google Cloud and TPU (v2.8)
 
-Requirements: **BoolQ_3L_experiments/requirements.txt**
+virtual environment: **pip install virtualenv**   #install virtualenv
+                    **cd BoolQ_3L_experiments**
+                    **virtualenv venv**           #create environment
+                    **source venv/bin/activate**  #activate environment
+install Requirement: **pip install tensorflow==1.15**
+                     **pip install --upgrade google-api-python-client**
+                     **pip install --upgrade oauth2client**
+ 
+                     
+                       
 
 ## 3. Pretrained Models
 
