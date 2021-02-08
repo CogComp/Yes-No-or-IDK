@@ -53,13 +53,15 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
 The corpus is in BoolQ_3L format so it can be used with the same code.
   - Full corpus: **DATA/INSTRUCTIONS/INSTRUCTIONS-full.json**
   - Has Answer: **DATA/ACE-YNQA/INSTRUCTIONS-has-answer.json**
+  
+  **License:** The corpora are released under the [Creative Commons Share-Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/)
 
 
 ## 2. Code for Training and Testing on BoolQ_3L
 
-Environment: TensorFlow using Google Cloud and TPU (v2.8)
+* Environment: TensorFlow using Google Cloud and TPU (v2.8)
 
-virtual environment: 
+* Creating a virtual environment: 
                     
                     pip install virtualenv   #install virtualenv
 
@@ -69,7 +71,7 @@ virtual environment:
                     
                     source venv/bin/activate  #activate environment
                   
-install requirements:  
+* Installing requirements:  
                      
                       pip install tensorflow==1.15
 
@@ -77,7 +79,16 @@ install requirements:
                      
                       pip install --upgrade oauth2client
  
-                                         
+  
+ * Downloading BERT LARGE CASED model: https://storage.googleapis.com/bert_models/2018_10_18/cased_L-24_H-1024_A-16.zip
+ 
+   The.zip file contains three items:
+   
+                   A TensorFlow checkpoint (bert_model.ckpt) containing the pre-trained weights (which is actually 3 files).
+      
+                   A vocab file (vocab.txt) to map WordPiece to word id.
+       
+                   A config file (bert_config.json) which specifies the hyperparameters of the model.
 
 ## 3. Pretrained Models
 
