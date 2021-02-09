@@ -109,7 +109,7 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
  
  Command for testing on the out-of-domain datasets (for example ACE-whQA-competitive):
  
- $PRETRAINED_MODEL corresponds to the path to the checkpoint in the form: /path/to/output-dir/model.ckpt-*
+ $PRETRAINED_MODEL corresponds to the path to the checkpoint in the form: /path/to/output-dir/model.ckpt-1767
          
          python  run_bert_boolq_full.py \
                 --vocab_file $BERT_MODEL/vocab.txt \
@@ -125,22 +125,20 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
 
   - [SQuAD 2.0 baseline](https://drive.google.com/drive/folders/1AOy4vJUqmBknzgrNUR1UyLWsdgzZOEZx?usp=sharing)
   
-  - Additional pretraining on MNLI
+  - [Additional pretraining on MNLI](https://drive.google.com/drive/folders/1HXrEstlj_HFvV1xJco485PReQvUvNCpk?usp=sharing)
 
-  - Additional pretraining on c(MNLI)
+  - [Additional pretraining on c(MNLI)](https://drive.google.com/drive/folders/1qW49KLdgI58H56vJ1FOOgyW9MnejuhSJ?usp=sharing)
   
-  - Additional pretraining on BoolQ_3L
+  - [Additional pretraining on BoolQ_3L](https://drive.google.com/drive/folders/1aocDsn4GjpjWqTmf5ZhI1c6GGSlviJIV?usp=sharing)
   
 * Yes/No QA with IDK:
   
-  - BoolQ_3L_baseline
+  - [BoolQ_3L_baseline](https://drive.google.com/drive/folders/157IIBlF5LsuuWB4HVxpRBYq6701h_2Nq?usp=sharing)
   
-  - MNLI + BoolQ_3L
+  - [MNLI + BoolQ_3L](https://drive.google.com/drive/folders/1e9bFtU8umY85ZL7uXpXjlSuQ4Tyh3OLk?usp=sharing)
   
-  - c(MNLI) + BoolQ_3L
+  - [c(MNLI) + BoolQ_3L](https://drive.google.com/drive/folders/1hOCy3SdFVPsuuuQ90c6058dNK5N2FsQ0?usp=sharing)
   
-* RTE:
-   - MNLI baseline
 
 ## 4. Commands for Training and Testing on SQuAD 2.0 and MNLI:
 
