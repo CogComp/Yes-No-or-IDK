@@ -1,10 +1,10 @@
-# Do We Know What We Don't Know?
-Studying Unanswerable Questions across Different Formats and Domains
+# Yes, No or IDK: The Challenge of Unanswerable Yes/No Questions.
 
 Data and code for the paper:
                      
-                     Do We Know What We Don't Know? Studying Unanswerable Questions across Different Formats and Domains
+                     Yes, No or IDK: The Challenge of Unanswerable Yes/No Questions
                      Elior Sulem, Jamaal Hay and Dan Roth
+                     Proc. of NAACL 2022
   
 
 ## 1. Datasets
