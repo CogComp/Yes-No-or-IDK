@@ -37,12 +37,6 @@ Link for MNLI (Matched) data alone: https://dl.fbaipublicfiles.com/glue/data/MNL
   - Train Set: **DATA/BoolQ_3L/train_IDK.jsonl**
   - Dev Set: **DATA/BoolQ_3L/dev_IDK.jsonl**
 
-* ACE-whQA
-The corpus is in SQuAD 2.0 format so it can be used with the same code.
-  - Has Answer: **DATA/ACE-whQA/ACE-whQA-has-answer.json**
-  - Compet. IDK: **DATA/ACE-whQA/ACE-whQA-IDK-competitive.json**
-  - Non-Compet. IDK: **DATA/ACE-whQA/ACE-wkQA-non-competitive.json**
-
 * ACE-YNQA
 The corpus is in BoolQ_3L format so it can be used with the same code.
   - Full corpus: **DATA/ACE-YNQA/ACE-YNQA-full.json**
@@ -122,22 +116,16 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
 ## 3. Pretrained Models
 
 * Extractive QA:
-
-  - [SQuAD 2.0 baseline](https://drive.google.com/drive/folders/1AOy4vJUqmBknzgrNUR1UyLWsdgzZOEZx?usp=sharing)
-  
-  - [Additional pretraining on MNLI](https://drive.google.com/drive/folders/1HXrEstlj_HFvV1xJco485PReQvUvNCpk?usp=sharing)
-
-  - [Additional pretraining on c(MNLI)](https://drive.google.com/drive/folders/1qW49KLdgI58H56vJ1FOOgyW9MnejuhSJ?usp=sharing)
   
   - [Additional pretraining on BoolQ_3L](https://drive.google.com/drive/folders/1aocDsn4GjpjWqTmf5ZhI1c6GGSlviJIV?usp=sharing)
   
 * Yes/No QA with IDK:
   
-  - [BoolQ_3L_baseline](https://drive.google.com/drive/folders/157IIBlF5LsuuWB4HVxpRBYq6701h_2Nq?usp=sharing)
+  - [BoolQ_3L_baseline](https://cogcomp.seas.upenn.edu/models/BoolQ_3L_paper_models/BoolQ_3L_baseline.zip)
   
-  - [MNLI + BoolQ_3L](https://drive.google.com/drive/folders/1e9bFtU8umY85ZL7uXpXjlSuQ4Tyh3OLk?usp=sharing)
+  - [MNLI + BoolQ_3L](https://cogcomp.seas.upenn.edu/models/BoolQ_3L_paper_models/MNLI+BoolQ_3L.zip)
   
-  - [c(MNLI) + BoolQ_3L](https://drive.google.com/drive/folders/1hOCy3SdFVPsuuuQ90c6058dNK5N2FsQ0?usp=sharing)
+  - [c(MNLI) + BoolQ_3L](https://cogcomp.seas.upenn.edu/models/BoolQ_3L_paper_models/binary_MNLI+BoolQ_3L.zip)
   
 
 ## 4. Commands for Training and Testing on SQuAD 2.0 and MNLI:
