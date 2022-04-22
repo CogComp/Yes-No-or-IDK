@@ -117,7 +117,7 @@ The corpus is in BoolQ_3L format so it can be used with the same code.
 
 * Extractive QA:
   
-  - [Additional pretraining on BoolQ_3L](https://drive.google.com/drive/folders/1aocDsn4GjpjWqTmf5ZhI1c6GGSlviJIV?usp=sharing)
+  - [Additional pretraining on BoolQ_3L](https://cogcomp.seas.upenn.edu/models/BoolQ_3L_paper_models/BoolQ_3L+SQuAD2.0.zip)
   
 * Yes/No QA with IDK:
   
