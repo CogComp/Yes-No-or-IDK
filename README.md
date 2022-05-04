@@ -39,9 +39,9 @@ Link for MNLI (Matched) data alone: https://dl.fbaipublicfiles.com/glue/data/MNL
 
 * ACE-YNQA
 The corpus is in BoolQ_3L format so it can be used with the same code.
-  - Full corpus: **DATA/ACE-YNQA/ACE-YNQA-full.json**
-  - Has Answer: **DATA/ACE-YNQA/ACE-YNQA-has-answer.json**
-  - IDK: **DATA/ACE-YNQA/ACE-YNQA-IDK.json**
+  - Full corpus: **DATA/ACE-YNQA/ace_ynqa_full_complete.json**
+  - Has Answer: **DATA/ACE-YNQA/ace_ynqa_two_label_complete.json**
+ 
 
 * INSTRUCTIONS
 The corpus is in BoolQ_3L format so it can be used with the same code.
