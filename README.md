@@ -20,8 +20,6 @@ Data and code for the paper:
   - [Dev Set](https://storage.cloud.google.com/boolq/dev.jsonl)
 
 * MNLI 
-  - [Train Set](GLUE_DATA/MNLI/train.tsv)
-  - [Dev Set](GLUE_DATA/MNLI/dev_matched.tsv)
 
 Script for downloading GLUE_DATA: https://gist.github.com/W4ngatang/60c2bdb54d156a41194446737ce03e2e
 
